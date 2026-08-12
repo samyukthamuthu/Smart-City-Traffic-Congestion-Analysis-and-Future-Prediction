@@ -1,0 +1,33 @@
+{
+  "dataset_source": "traffic_data_realistic_2024_2026_3456(1).csv",
+  "records_used": 3456,
+  "features": [
+    "Location",
+    "Traffic Volume",
+    "Vehicle Type",
+    "Weather",
+    "Temperature",
+    "Holiday",
+    "Speed",
+    "Accident",
+    "Year",
+    "Month",
+    "Day",
+    "DayOfWeek",
+    "WeekOfYear",
+    "Hour"
+  ],
+  "target": "Congestion Level",
+  "model": "RandomForestClassifier",
+  "n_estimators": 300,
+  "test_accuracy": 0.8453757225433526,
+  "files": [
+    ".gitignore",
+    "README.md",
+    "app_combined.py",
+    "encoders.pkl",
+    "future_congestion_model.pkl",
+    "requirements.txt",
+    "traffic_data_realistic_2024_2026_3456.csv"
+  ]
+}
